@@ -23,7 +23,7 @@ const routes: Routes = [
 
   // { path: 'list-product', component: ViewAllProductComponent},
 
-  { path: 'search-cat', component: ViewProductByCategoryComponent},
+  { path: 'category/:id', component: ViewProductByCategoryComponent},
 
   { path: 'search-date', component: ViewProductByDateComponent},
   
