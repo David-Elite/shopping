@@ -1,0 +1,99 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "name": "shirt",
+      "categoryid": 1,
+      "decriptions": "description here",
+      "price":300,
+      "is_availble":true,
+      "productImg":"assets/shirt.png",
+      "rating":4,
+      "review":150,
+      "vendor_name":"abc shop",
+      "waranty":1
+    },
+    {
+      "id": 2,
+      "name": "t-shirts",
+      "categoryid": 2,
+      "decriptions": "description here",
+      "price":320,
+      "is_availble":true,
+      "productImg":"assets/t-shirt.png",
+      "rating":4,
+      "review":150,
+      "vendor_name":"abc shop",
+      "waranty":1
+    },
+    {
+      "id": 3,
+      "name": "shirt",
+      "categoryid": 4,
+      "decriptions": "description here",
+      "price":300,
+      "is_availble":true,
+      "productImg":"assets/shirt.png",
+      "rating":3,
+      "review":150,
+      "vendor_name":"abc shop",
+      "waranty":1
+    }
+    ,
+    {
+      "id": 4,
+      "name": "shirt4",
+      "categoryid": 5,
+      "decriptions": "description here",
+      "price":350,
+      "is_availble":true,
+      "productImg":"assets/t-shirt.png",
+      "rating":5,
+      "review":150,
+      "vendor_name":"abc shop",
+      "waranty":1
+    },
+    {
+      "id": 5,
+      "name": "shirt4",
+      "categoryid": 3,
+      "decriptions": "description here",
+      "price":300,
+      "is_availble":true,
+      "productImg":"assets/t-shirt.png",
+      "rating":5,
+      "review":150,
+      "vendor_name":"abc shop",
+      "waranty":1
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "Electroics"
+    },
+    {
+      "id": 2,
+      "categoryName": "Men"
+    },
+    {
+      "id": 3,
+      "categoryName": "Women"
+    },
+    {
+      "id": 4,
+      "categoryName": "Home & Furniture"
+    },
+    {
+      "id": 5,
+      "categoryName": "Baby & Kids"
+    }
+  ],
+  "comments": [
+    {"id":1, "body":"some comment", "postid":1},
+    {"id":2, "body":"some comment", "postid":2}
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
