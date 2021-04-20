@@ -14,12 +14,11 @@ export class ViewProductByCategoryComponent implements OnInit {
 searchCategory : Category | any ;
 productList : Product | any;
 
-  constructor(private route : ActivatedRoute, private router: Router,
+  constructor(private route : ActivatedRoute, 
     private productService: ProductService) { }
 
   ngOnInit(): void {
-  
-    
+     
         
     this.route.queryParams.subscribe((data : any )=>{
       this.searchCategory = data.id;

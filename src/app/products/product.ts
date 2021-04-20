@@ -1,6 +1,6 @@
 export interface Product {
     productID:string;
-    categoryId:number;
+    categoryid:number;
     productName:string;
     description:string;
     rating:string;

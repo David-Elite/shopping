@@ -13,7 +13,7 @@ productList : Product | any;
   constructor( private productService: ProductService) { }
 
   ngOnInit(): void {
-    this.productService.viewProduct().subscribe(data=>{
+    this.productService.viewProducts().subscribe(data=>{
       this.productList = data;
     });
   }

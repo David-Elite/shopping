@@ -18,12 +18,16 @@ export class ProductService {
     const baseUrl="http://localhost:3000/products";
     return this.httpCLient.post<Product>(baseUrl, productBody)
   }
-  viewProduct():Observable<Product>{
+  viewProduct(categoryid : any):Observable<Product>{
+    const baseUrl="http://localhost:3000/product/"+categoryid;
+    return this.httpCLient.get<Product>(baseUrl);
+  }
+  viewProducts():Observable<Product>{
     const baseUrl="http://localhost:3000/product";
     return this.httpCLient.get<Product>(baseUrl);
   }
   updateProduct(productId: any ,productBody: any):Observable<Product>{
-    const baseUrl="http://localhost:3000/product"+productId;
+    const baseUrl="http://localhost:3000/product/"+productId;
     return this.httpCLient.put<Product>(baseUrl, productBody);
   }
   deleteProduct(productId: any ):Observable<Product>{

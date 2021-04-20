@@ -1,13 +1,13 @@
 <div class="col-lg-9">
 
-    <div class="card mt-4">
-      <img class="card-img-top img-fluid" src="{{productData.productImg}}" alt="">
+    <div class="card mt-4" >
+      <img class="card-img-top img-fluid" src="{{productData.productImg}}" alt=""> 
       <div class="card-body">
         <h3 class="card-title">{{productData.productName}}</h3>
-        <h4>$24.99</h4>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente dicta fugit fugiat hic aliquam itaque facere, soluta. Totam id dolores, sint aperiam sequi pariatur praesentium animi perspiciatis molestias iure, ducimus!</p>
-        <span class="text-warning">&#9733; &#9733; &#9733; &#9733; &#9734;</span>
-        4.0 stars
+        <h4>{{productData.price}}</h4>
+        <p class="card-text">{{productData.descriptions}}</p>
+        <span class="text-warning">{{productData.rating}} Star</span>
+      
       </div>
     </div>
     <!-- /.card -->

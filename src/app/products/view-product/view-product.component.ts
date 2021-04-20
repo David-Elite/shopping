@@ -9,18 +9,18 @@ import { ProductService } from '../product.service';
   styleUrls: ['./view-product.component.scss']
 })
 export class ViewProductComponent implements OnInit {
-productID = 0;
-productData : Product;
+productId = 0;
+productData : Product | any;
   constructor(private activateRoute: ActivatedRoute,
     private productService: ProductService) { }
 
   ngOnInit(): void {
     this.activateRoute.params.subscribe( data =>{
-    this.productID = data.id;
+    this.productId = data.id;
 
    
     });
-     this.productService.viewProduct().subscribe(viewData => {
+     this.productService.viewProduct(this.productId).subscribe(viewData => {
        this.productData = viewData;
      });
   }
