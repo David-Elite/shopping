@@ -66,52 +66,40 @@
       "waranty": 1
     },
     {
-      "id": 6,
-      "productName": "home 2",
-      "categoryid": 3,
-      "descriptions": "description here",
-      "price": 300,
-      "is_availble": true,
-      "productImg": "assets/wemon.jpeg",
-      "rating": 5,
-      "review": 150,
-      "vendor_name": "abc shop",
-      "waranty": 1
-    },
-    {
-      "productName": "mobile-2",
+      "id": 114,
+      "productName": "laptop 2",
       "categoryid": "14",
-      "rating": "",
-      "color": "black",
-      "isAvailable": 1,
-      "productImg": "",
-      "price": "52000",
-      "review": "",
-      "id": 111
-    },
-    {
-      "id": 112,
-      "productName": "stylies -t-shirt",
-      "categoryid": "15",
-      "description": "s-shirt",
-      "rating": "2",
-      "color": "white",
+      "descriptions": "dfergf",
+      "rating": "4",
+      "color": "red",
       "isAvaliable": 1,
       "productImg": "",
-      "price": "20000",
+      "price": "54000",
       "review": "3"
     },
     {
-      "id": 113,
-      "productName": "computer",
-      "categoryid": "16",
-      "descriptions": "computer !5 8 gm ram",
+      "id": 115,
+      "productName": "shiva",
+      "categoryid": "1000",
+      "descriptions": "desription",
       "rating": "3",
-      "color": "white",
+      "color": "black",
       "isAvaliable": 1,
       "productImg": "",
-      "price": "20000",
-      "review": "2"
+      "price": "0000",
+      "review": "3"
+    },
+    {
+      "id": 116,
+      "productName": "laptop",
+      "categoryid": "22",
+      "descriptions": "description",
+      "rating": "4",
+      "color": "white",
+      "isAvaliable": 1,
+      "productImg": "C:\\fakepath\\laptop.jpg",
+      "price": "40000",
+      "review": "4"
     }
   ],
   "categories": [

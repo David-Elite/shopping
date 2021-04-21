@@ -31,7 +31,7 @@ export class ProductService {
     return this.httpCLient.put<Product>(baseUrl, productBody);
   }
   deleteProduct(productId: any ):Observable<Product>{
-    const baseUrl="http://localhost:3000/product"+productId;
+    const baseUrl="http://localhost:3000/product/"+productId;
     return this.httpCLient.delete<Product>(baseUrl);
   }
   serachCategoryProduct(categoryId: any):Observable<Product>{

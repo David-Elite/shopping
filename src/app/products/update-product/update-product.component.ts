@@ -1,6 +1,7 @@
 import { formatCurrency } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { Product } from '../product';
 import { ProductService } from '../product.service';
 
 @Component({
@@ -10,7 +11,7 @@ import { ProductService } from '../product.service';
 })
 export class UpdateProductComponent implements OnInit {
 productId = 0;
-  productDetails: import("d:/shopping/shopping/src/app/products/product").Product;
+  productDetails: Product;
   constructor( private activatedRoute: ActivatedRoute,
     private productService: ProductService) { }
 
