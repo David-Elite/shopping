@@ -11,6 +11,7 @@ import { ViewAllProductComponent } from './view-all-product/view-all-product.com
 import { ViewProductByDateComponent } from './view-product-by-date/view-product-by-date.component';
 import { ViewProductByCategoryComponent } from './view-product-by-category/view-product-by-category.component';
 import { RouterModule  } from '@angular/router';
+import {FormsModule} from "@angular/forms";
 
 
 
@@ -30,7 +31,8 @@ import { RouterModule  } from '@angular/router';
   imports: [
     CommonModule,
     RouterModule,
-    ProductsRoutingModule
+    ProductsRoutingModule,
+    FormsModule
   ]
 })
 export class ProductsModule { }
