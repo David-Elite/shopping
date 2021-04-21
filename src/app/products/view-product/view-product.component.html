@@ -4,6 +4,8 @@
       <img class="card-img-top img-fluid" src="{{productData.productImg}}" alt=""> 
       <div class="card-body">
         <h3 class="card-title">{{productData.productName}}</h3>
+        <a href="/products/update-product/{{productData.id}}">Update Product </a>|
+        <a href="/products/delete-product/{{productData.id}}">Delete Product </a>
         <h4>{{productData.price}}</h4>
         <p class="card-text">{{productData.descriptions}}</p>
         <span class="text-warning">{{productData.rating}} Star</span>

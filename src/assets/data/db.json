@@ -79,16 +79,15 @@
       "waranty": 1
     },
     {
-      "id": 111,
-      "productName": "product_name",
-      "categoryId": "product_category",
-      "description": "product_description",
-      "rating": "product_rating",
-      "productColor": "product_color",
-      "isAvaliable": 1,
-      "prodductImg": "",
-      "price": "product_price",
-      "review": "product_reviews"
+      "productName": "mobile-2",
+      "categoryid": "14",
+      "rating": "",
+      "color": "black",
+      "isAvailable": 1,
+      "productImg": "",
+      "price": "52000",
+      "review": "",
+      "id": 111
     },
     {
       "id": 112,
